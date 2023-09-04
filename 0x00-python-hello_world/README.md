@@ -1,1 +1,3 @@
-# 0x00-python-hello_world
+# 0x00-python-helloworld
+
+This is the starting point of my python journey
