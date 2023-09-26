@@ -1,8 +1,4 @@
 # 0x05. Python - Exceptions
-## Technologies
-* Python Scripts are written with Python 3.4.3
-* C files are compiled using `gcc 4.8.4`
-* Tested on Ubuntu 14.04 LTS
 ## General
 Why Python programming is awesome
 What’s the difference between errors and exceptions
