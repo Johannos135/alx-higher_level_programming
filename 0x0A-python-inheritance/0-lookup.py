@@ -8,6 +8,6 @@ def lookup(obj):
             obj: instance of the object
 
         Returns:
-            List of available attributes and methods
+            List of attributes and methods
     """
     return dir(obj)
