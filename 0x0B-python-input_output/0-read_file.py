@@ -13,5 +13,4 @@ def read_file(filename=""):
             Prints each line
     """
     with open(filename, encoding="utf-8") as my_file:
-        for f in my_file:
-            print(f.read(), end="")
+        print(my_file.read(), end="")
