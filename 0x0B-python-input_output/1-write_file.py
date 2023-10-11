@@ -13,7 +13,7 @@ def write_file(filename="", text=""):
     Returns:
         The number of characters
     """
-    counter = 1 
+    counter = 1
     count = 0
 
     with open(filename, "w", encoding="utf-8") as my_file:
