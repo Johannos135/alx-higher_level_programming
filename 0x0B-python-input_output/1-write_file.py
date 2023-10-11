@@ -16,6 +16,7 @@ def write_file(filename="", text=""):
     counter = 1 
     count = 0
 
+
     with open(filename, "w", encoding="utf-8") as my_file:
         my_file.write(text)
 
@@ -31,4 +32,6 @@ def write_file(filename="", text=""):
                 for char in word:
                     count += 1
             counter += 1
+
+
     return count
