@@ -15,6 +15,6 @@ if __name__ == '__main__':
         my_list = load_file("add_item.json")
 
     for arg in sys.argv[1:]:
-        my_list.extends(arg)
+        my_list.extend(arg)
 
     save_file(my_list, "add_item.json")
