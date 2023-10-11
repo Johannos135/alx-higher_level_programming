@@ -14,7 +14,6 @@ if __name__ == '__main__':
     if os.path.exists("add_item.json"):
         my_list = load_file("add_item.json")
 
-    for arg in sys.argv[1:]:
-        my_list.extend(arg)
+    my_list.extend(sys.argv[1:])
 
     save_file(my_list, "add_item.json")
