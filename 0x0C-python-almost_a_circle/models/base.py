@@ -9,9 +9,10 @@ class Base:
     def __init__(self, id=None):
         """ Class Base COnstructor
             
-            Args:
+            Parameters:
                 id: Public instance of class
         """
+
         if id is not None:
             self.id = id
         else:
