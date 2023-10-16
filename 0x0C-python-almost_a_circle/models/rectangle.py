@@ -25,32 +25,40 @@ class Rectangle(Base):
 
         @property
         def width(self):
+            """ Get the value of width """
             return self.__width
 
         @width.setter
         def width(self, width):
+            """ Set a value to width """
             self.__width = width
 
         @property
         def height(self):
+            """ Get the value of height """
             return self.__height
 
         @height.setter
         def height(self, height):
+            """ Set a value to height """
             self.__height = height
 
         @property
         def x(self):
+            """ Get the value of x """
             return self.__x
 
         @x.setter
         def x(self, x):
+            """ Set a value to x """
             selft.__x = x
 
         @property
         def y(self):
+            """ Get the value of y """
             return self.__y
 
         @y.setter
         def y(self, y):
+            """ Set a value to y """
             self.__y = y
