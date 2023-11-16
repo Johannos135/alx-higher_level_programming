@@ -1,1 +1,2 @@
-# ALX HIGH LEVEL PROGRAMMING
+# 0x0E SQL MORE QUERIES
+lx learn more queries
